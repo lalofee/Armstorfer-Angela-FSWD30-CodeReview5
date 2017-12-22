@@ -1,8 +1,6 @@
 body {
     font-family: Georgia, Verdana, Arial, Helvetica;
-    background-image: url('img/computer.jpg');
-    background-position: center;
-    background-color: #d9b3ff;
+    background-color: #eee6ff;
     background-repeat: no-repeat;
     font-size: 1em;
     line-height: 1.5;
@@ -12,7 +10,10 @@ body {
 .flexcontainer {
     flex: 1;   
     display: flex;    
-    flex-direction: column;        
+    flex-direction: column;
+    background-image: url('img/computer.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;        
     max-width: 80em;
     margin: auto;
 }
@@ -26,10 +27,9 @@ header {
 main {
    flex: 1 100%;
    display: flex;
-   flex-direction: column;
-   
+   flex-direction: column; 
 }
-#top {
+#first {
   height: 100%;
   width: 100%;
   text-align: center;
@@ -40,14 +40,38 @@ main {
   font-size: 3em;
   background: rgba(128, 0, 255, 0.6)
 }
-#profiles {
+#profil_container {
   flex:  1;
   display:  flex;
-  flex-flow: row wrap;  /*this is the same as: * flex-direction: row; * flex-wrap: wrap;*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #5900b3;
+  min-height: 40em;
 }
 .prof {
+  height:  270px;
+  width: 600px;
+  padding: 1em;
+  background-color: #e6ccff;
+  border-radius: 8px;  
+}  
+.image {
+  float: left;
+  margin-right: 1em;
 }
-  
+li {
+  list-style-type: none;
+  color: black;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-weight: bold;
+}
+#likebutton {
+  display: inline;
+  float: right;
+  border: 1px solid black;
+}
 
 footer {
    flex: 1;  
