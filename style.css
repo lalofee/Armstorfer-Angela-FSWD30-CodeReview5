@@ -1,0 +1,96 @@
+body {
+    font-family: Georgia, Verdana, Arial, Helvetica;
+    background-image: url('img/computer.jpg');
+    background-position: center;
+    background-color: #d9b3ff;
+    background-repeat: no-repeat;
+    font-size: 1em;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin:  0;
+}
+.flexcontainer {
+    flex: 1;   
+    display: flex;    
+    flex-direction: column;        
+    max-width: 80em;
+    margin: auto;
+}
+header {   
+    flex: 1 100%;    
+    display: flex;    
+    justify-content: center;
+    padding: 2em;  
+    background-color: #8000ff;
+}
+main {
+   flex: 1 100%;
+   display: flex;
+   flex-direction: column;
+   
+}
+#top {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 2em 0;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 3em;
+  background: rgba(128, 0, 255, 0.6)
+}
+#profiles {
+  flex:  1;
+  display:  flex;
+  flex-flow: row wrap;  /*this is the same as: * flex-direction: row; * flex-wrap: wrap;*/
+}
+.prof {
+}
+  
+
+footer {
+   flex: 1;  
+   text-align: center;
+   min-height: 5em;     
+   background-color: white; 
+   padding-top: 0.7em;   
+}
+
+
+
+
+/*ul.links {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-flow: wrap;
+  flex-flow: wrap;  
+  padding: 0;
+  list-style-type: none;  
+}
+ul.links a { 
+  padding-right: 1em;
+}
+ a:link {
+    color: coral;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}*/
+
+
+
+
+
+
+
