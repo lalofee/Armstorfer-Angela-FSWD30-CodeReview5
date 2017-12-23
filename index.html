@@ -19,40 +19,63 @@
 			<div id="first">
 				<h1>Welcome to our<br>Website</h1>
 			</div>
-			<div id=profil_container>
-				<div class="prof"><img src="img/boy1.jpg" class="image" alt="manpicture" height="240" width="192">
+
+			<section id=profil_container>
+				
+				<div class="prof">
+					<span class="image" id="profile1_image"></span>
 					<ul>
-						<li>Name: John</li>
-						<li>Surname: Doe</li>
-						<li>Age: 25</li>
+						<li id="profile1_name"></li>
+						<li id="profile1_surname"></li>
+						<li id="profile1_age"></li>
 					</ul>
-					<button type="button">Like</button>
+					<aside class="likebutton">
+						<button type="button" class="button" onclick="likeCounter()">Like</button>
+						<span id="profile_likes"><h2></h2></span>
+						<img src="img/heart.png">
+					</aside>
 				</div>
-				<div class="prof"><img src="img/girl2.jpg" class="image" alt="manpicture" height="240" width="192">
+				
+				<div class="prof">
+					<span class="image" id="profile2_image"></span>
 				<ul>
-						<li>Name: Jane</li>
-						<li>Surname: Doe</li>
-						<li>Age: 25</li>
+						<li id="profile2_name"></li>
+						<li id="profile2_surname"></li>
+						<li id="profile2_age"></li>
 					</ul>
-					<button type="button">Like</button>
+					<aside class="likebutton">
+						<button type="button" class="button" onclick="likeCounter()">Like</button>
+						<span id="profile_likes"><h2></h2></span>
+						<img src="img/heart.png">
+					</aside>
 				</div>
-				<div class="prof"><img src="img/girl1.jpg" class="image" alt="womanpicture" height="240" width="192">
+				<div class="prof">
+					<span class="image" id="profile3_image"></span>
 				<ul>
-						<li>Name: Maxina</li>
-						<li>Surname: Musterman</li>
-						<li>Age: 25</li>
+						<li id="profile3_name"></li>
+						<li id="profile3_surname"></li>
+						<li id="profile3_age"></li>
 					</ul>
-					<button type="button">Like</button>
+					<aside class="likebutton">
+						<button type="button" class="button" onclick="likeCounter()">Like</button>
+						<span id="profile_likes"><h2></h2></span>
+						<img src="img/heart.png">
+					</aside>
 				</div>
-				<div class="prof"><img src="img/boy2.jpg" class="image" alt="womanpicture" height="240" width="192">
+				<div class="prof">
+					<span class="image" id="profile4_image"></span>
 				<ul>
-						<li>Name: Max</li>
-						<li>Surname: Musterman</li>
-						<li>Age: 25</li>
+						<li id="profile4_name"></li>
+						<li id="profile4_surname"></li>
+						<li id="profile4_age"></li>
 					</ul>
-					<div id="likebutton"><button type="button">Like</button><h2>4</h2><img src="img/heart.png"></div>
+					<aside class="likebutton">
+						<button type="button" class="button" onclick="likeCounter()">Like</button>
+						<span id="profile_likes"><h2></h2></span>
+						<img src="img/heart.png">
+					</aside>
 				</div>
-			</div>
+			</section>
      	</main>
 
 	    <footer>
@@ -63,7 +86,7 @@
 
      
          
-	
+<script src="myscript.js"></script>	
 
 </body>
 </html>

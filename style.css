@@ -67,10 +67,19 @@ li {
   line-height: 2em;
   font-weight: bold;
 }
-#likebutton {
-  display: inline;
+aside.likebutton {
   float: right;
-  border: 1px solid black;
+}
+button {
+  background-color: #b3ffe6; 
+  font-size: 1.5em;
+  border-radius:  10px;
+}
+#profile_likes {
+  display:  inline;
+  color:  red;
+  font-size: 2.5em;
+  padding:  0 0.2em;
 }
 
 footer {
