@@ -58,6 +58,11 @@ var profile4 = {
 		document.getElementById("profile4_age").innerHTML = "Age: " + profile4.age;
 		
 
+
+
+
+
+// like-counter, doesnt work properly
 var clicks = 0;
     function likeCounter() {
 
@@ -66,7 +71,60 @@ var clicks = 0;
 
 };
     
+//--------solution with classes. but didnt find a solution for the image yet
 
+/*
+class Person {                  
+
+   
+    constructor(name, surname, age) {  
+        
+        this.name = name;        
+        this.surname = surname;
+        this.age = age;      
+    }
+
+    output() {
+    	
+		document.getElementById("profile1_name").innerHTML = "Name: " + this.name;
+		document.getElementById("profile1_surname").innerHTML = "Surname: " + this.surname;
+		document.getElementById("profile1_age").innerHTML = "Age: " + this.age;
+
+		document.getElementById("profile2_name").innerHTML = "Name: " + this.name;
+		document.getElementById("profile2_surname").innerHTML = "Surname: " + this.surname;
+		document.getElementById("profile2_age").innerHTML = "Age: " + this.age;
+		
+		document.getElementById("profile3_name").innerHTML = "Name: " + this.name;
+		document.getElementById("profile3_surname").innerHTML = "Surname: " + this.surname;
+		document.getElementById("profile3_age").innerHTML = "Age: " + this.age;
+		
+		document.getElementById("profile4_name").innerHTML = "Name: " + this.name;
+		document.getElementById("profile4_surname").innerHTML = "Surname: " + this.surname;
+		document.getElementById("profile4_age").innerHTML = "Age: " + this.age;
+		
+}
+
+}
+
+
+var profile1 = new Person("John", "Doe", "25");
+profile1.output();
+
+var profile2 = new Person("Jane", "Doe", "25");
+profile2.output();
+
+var profile3 = new Person("Maxina", "Musterman", "25");
+profile3.output();
+
+var profile4 = new Person("Max", "Musterman", "25");
+profile4.output();
+
+//	document.getElementById("profile2_image").innerHTML = '<img src="' + profile1.myPhoto  + '">';
+//	document.getElementById("profile2_image").innerHTML = '<img src="' + profile2.myPhoto  + '">';
+//	document.getElementById("profile3_image").innerHTML = '<img src="' + profile3.myPhoto  + '">';
+//	document.getElementById("profile4_image").innerHTML = '<img src="' + profile4.myPhoto  + '">';
+
+*/
 
 
 
